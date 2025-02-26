@@ -4,6 +4,26 @@
     --bs-secondary-rgb: 0, 30, 98;
     --primary-alt : #E2066F;
 }
+
+@font-face {
+    font-family:"proxima-nova";
+    src:url('../fonts/proxima-nova/proximanova_bold.otf') format("opentype");
+    font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+    }
+    
+   
+    
+    @font-face {
+    font-family:"proxima-nova";
+    src:url("../fonts/proxima-nova/proximanova_regular.ttf") format("opentype");
+    font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+    }
+    
+    
+/* 
+body{
+    font-family: "proxima-nova",sans-serif;
+} */
 .heading-lg{
     font-size: 36px;
     line-height: 100%;
@@ -38,7 +58,7 @@
         line-height: 130%;
     }
 }
-@media(min-width:992px){
+@media(min-width:768px){
     .aside-img{
         width: 50vw;
     }
