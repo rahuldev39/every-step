@@ -69,3 +69,34 @@ body{
 .footer-nav-link:hover{
     opacity: .7;
 }
+.fs-14{
+    font-size: 14px;
+}
+.btn{
+    --bs-btn-padding-x: 20px;
+    --bs-btn-padding-y: 4px;
+    --bs-btn-font-size: 14px;
+    --bs-btn-font-weight:700;
+}
+.btn-primary{
+    --bs-border-width: 2px;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: hsl(331, 95%, 45%);
+    --bs-btn-border-color: hsl(325, 70%, 32%);
+
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: hsl(331, 95%, 41%);
+    --bs-btn-hover-border-color: hsl(325, 70%, 32%);
+
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #E2066F;
+    --bs-btn-active-border-color: hsl(325, 70%, 32%);
+}
+.modal .gradient-header{
+    height: 20px;
+    background: linear-gradient(90deg, #F47721 0%, #E2066F 49.66%, #45042E 100%);
+}
+.modal-backdrop{
+    --bs-backdrop-bg: #001E62;
+    --bs-backdrop-opacity: 0.6;
+}
